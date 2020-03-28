@@ -1,0 +1,22 @@
+div.sub-menu{
+    display:none;
+    position: absolute;
+    z-index:999;
+}
+.nav-menu:hover{
+    opacity: 0.6;
+
+}
+.nav-menu-donate:hover{
+    background-color:#fff;
+   
+}
+.nav-menu-donate:hover a.nav-link{
+    color:#000!important;
+}
+.bg-light-grey{
+    background: #e0e0e0;
+}
+
+
+
