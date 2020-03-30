@@ -35,7 +35,7 @@
            <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
              <div class="video">
                 <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VAi3jzgOGkU" allowfullscreen></iframe>
                 
                         </div>
                         <div class="caption bg-dark text-white text-center"> <span>Name of the video </span> </div>
@@ -44,12 +44,38 @@
            </div>
            <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
                 <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-rd6jV7yf1U" allowfullscreen></iframe>
                       </div>
                       <div class="caption bg-dark text-white text-center"> <span>Name of the video </span> </div>
                
         </div>
 
+       </div>
+       <!--col2-->
+       <div class="row">
+           <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+             <div class="video">
+                <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VAi3jzgOGkU" allowfullscreen></iframe>
+                
+                        </div>
+                        <div class="caption bg-dark text-white text-center"> <span>Name of the video </span> </div>
+               </div>
+
+           </div>
+           <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+                <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-rd6jV7yf1U" allowfullscreen></iframe>
+                      </div>
+                      <div class="caption bg-dark text-white text-center"> <span>Name of the video </span> </div>
+               
+        </div>
+       </div>
+       <div class="p-4 clear">
+       </div>
+       <div class="row">
+       <div class="col-lg-12 col-sm-12 col-xs-12 align-self-center">
+       <button class = "text-center btn-primary"><a class="text-white" target = "_blank" href="https://www.youtube.com/channel/UCc9kvvAbRLR7EMiqnVagQzg">More Sermons</a> </button>
        </div>
       </div>
    </div>

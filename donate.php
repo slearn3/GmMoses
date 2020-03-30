@@ -17,12 +17,11 @@
     <!--section_1-->
    <div class="section_1">
   <div class=" position-relative">
-     <img src="img/donate.jpg" width="100%"  >
-     <div class="container position-absolute" style="top:100px ">
+     <img src="img/donate.jpg" class="position-relative" width="100%" height="450px;" >
+     <div class="container position-absolute" style="top:100px;margin:0 auto">
        <h3 class="display-5 text-center bg-white align-self-center"> So let each one give as he purposes in his heart, not grudgingly or of necessity; for God loves a cheerful giver.
        <p class="text-bold text-center bg-white"> 2 Corinthians 9:7</p>
        </h3>
-      
       </div>
 </div>
    </div>

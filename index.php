@@ -32,7 +32,7 @@
           <div class="icon_style text-secondary">
           <a href="#"><i class="far fa-star fa-3x p-2"></i></a>
           </div> 
-          <h5 class="display-5 text-center text-dark">2019 Year Promises</h5>
+          <h5 class="display-5 text-center text-dark">Promises</h5>
         </div>
        </div>
        <div class="col-lg-3 col-sm-6">
@@ -64,7 +64,7 @@
           <div class="col-lg-3 col-sm-6">
               <div class="icon text-center p-2 border-right">
                   <div class="icon_style text-secondary">
-                      <a href="#"><i class="far fa-calendar-check fa-3x p-2"></i></a>
+                      <a href="events.php"><i class="far fa-calendar-check fa-3x p-2"></i></a>
                   </div>
                 <h5 class="display-5 text-center text-dark">Events</h5>
               </div>
@@ -72,7 +72,7 @@
              <div class="col-lg-3 col-sm-6">
                 <div class="icon text-center p-2 border-right">
                     <div class="icon_style text-secondary">
-                        <a href="#"><i class="fas fa-film fa-3x p-2"></i></a>
+                        <a href="sermons.php"><i class="fas fa-film fa-3x p-2"></i></a>
                     </div>
                     <h5 class="display-5 text-dark">Sermons</h5>
                   </div>
@@ -80,7 +80,7 @@
              <div class="col-lg-3 col-sm-6">
                 <div class="icon text-center p-2 border-right">
                     <div class="icon_style text-secondary">
-                        <a href="#"><i class="far fa-sticky-note fa-3x p-2"></i></a>
+                        <a href="prayer-request.php"><i class="far fa-sticky-note fa-3x p-2"></i></a>
                     </div>
                     <h5 class="display-5 text-dark">Prayer Request</h5>
                   </div>
@@ -88,7 +88,7 @@
              <div class="col-lg-3 col-sm-6">
                 <div class="icon text-center p-2">
                     <div class="icon_style text-secondary">
-                        <a class="" href="#"><i class="far fa-heart fa-3x p-2"></i></a>
+                        <a class="" href="donate.php"><i class="far fa-heart fa-3x p-2"></i></a>
                     </div>
                     <h5 class="display-5 text-dark">Donate</h5>
                   </div>
@@ -123,7 +123,8 @@
                     India.
                  </p>
                  <div class="d-flex justify-content-center">
-                 <button class="btn btn-danger"> Check Now</button></div>
+                 <a target = "_blank" href="https://www.google.com/maps/place/Bethel+Tower+Church/@17.5186127,78.5518297,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb9b69de7ca0e7:0x3b01fff4fcd4b8d8!8m2!3d17.5186076!4d78.5540184">
+                 <button class="btn btn-danger"> Check Now</button></a></div>
                 </div> 
               </div>
            
@@ -150,7 +151,7 @@
           Make a Difference and Donate towards a cause!
        </p>
        <div class="d-flex justify-content-center">
-       <button class="btn btn-danger">Donate</button></div>
+       <a href="donate.php"><button class="btn btn-danger">Donate</button></a></div>
       </div> 
     
   </div>
@@ -175,7 +176,7 @@
           Before going further, let me introduce myself. My name is Murali (the name “Murali” means “flute” which was used by one of the gods in Hinduism, named “Krishna” who is considered to be one of the incarnations of main gods).
       </p>
       <div class="d-flex justify-content-center">
-          <button class="btn btn-danger">Watch Sermon</button></div>
+          <a href="sermons.php"><button class="btn btn-danger">Watch Sermon</button></a></div>
          </div> 
 
     </div>

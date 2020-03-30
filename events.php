@@ -51,7 +51,7 @@
 <div class="section_3">
 <div class="container">
 <h2> Latest Events</h2>
-<div class="row">
+<!--<div class="row">
 <div class="col-lg-6"> 
 <img src="img/prayer.png" width="100%"  float="left" />
 <p class="pull-right"> These example sentences are selected automatically from various online news sources to reflect current usage of the word 'designation. </p>
@@ -61,7 +61,7 @@
 <img src="img/prayer.png"  width="100%" />
 <p class="pull-right"> These example sentences are selected automatically from various online news sources to reflect current usage of the word 'designation. </p>
 </div>
-</div>
+</div>-->
 </div>
 </div>
 <!--/section_3-->

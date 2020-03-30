@@ -1,11 +1,30 @@
 <?php 
-$name = $email = $subject = $message = "";
+$name = $email = $subject = $message = $success_message = $error_message = "";
 
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-$Name = $_POST["name"];
-$Email = $_POST["email"];
-$Websit = $_POST["subject"];
-$message = $_POST["message"];
+
+//new
+if( isset($_POST['name']) && isset($_POST['email'])&& isset($_POST['subject']) && isset($_POST['message'])){
+	$n = $_POST['name']; // HINT: use preg_replace() to filter the data
+	$e = $_POST['email'];
+	$s = $_POST['subject'];
+    //$u = $_POST['message'];
+
+	$m = nl2br($_POST['message']);
+	$to = "mosesdasari13@gmail.com";	
+	$from = $e;
+	$subject = 'Contact Form Message';
+	$message = '<b>Name:</b> '.$n.' <br><b>Email:</b> '.$e.' <br/> <b>Subject</b>'.$s.' <br><b>Message:</b> '.$m.' ';
+	$headers = "From: $from\n";
+       // $phone = $p;
+	$headers .= "MIME-Version: 1.0\n";
+	$headers .= "Content-type: text/html; charset=iso-8859-1\n";
+        
+	if( mail($to, $subject, $message, $headers) ){
+        //echo "success";
+        $success_message = "message deliverd successfully";
+	} else {
+		$error_message = "The server failed to send the message. Please try again later.";
+	}
 
 }
 
@@ -46,6 +65,8 @@ Contact us</h2>
         <div class="col-md-9 mb-md-0 mb-5 wow animated fadeInUp">
             <!--<div id="sendmessage">Your message has been sent. Thank you!</div>-->
             <div id="error"></div>
+            <?php echo $success_message; ?>
+            <?php echo $error_message; ?>
             <form class="contactForm" name="form"  Onsubmit="return Submit();" method="POST" action= "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?> "  >
 
                 <!--Grid row-->
