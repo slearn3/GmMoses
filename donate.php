@@ -38,7 +38,7 @@
    <div class="col-lg-6 align-self-center">
    <h2 class="display-4">Online Giving</h2>
    <p class= ""> Simple and secure. Give a single gift, or schedule recurring giving using your checking account, debit, or credit card.</p>
-   <button class="btn btn-primary "><a class="text-white" href="https://upi.link/s/Moseslatest" target="_blank">Give Now</a> </button>
+   <button class="btn btn-primary "><a class="text-white" href="https://rzp.io/i/9gbs4vt" target="_blank">Give Now</a> </button>
    </div>
 
    </div>

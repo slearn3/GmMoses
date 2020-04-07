@@ -28,6 +28,7 @@ if( isset($_POST['name']) && isset($_POST['email'])&& isset($_POST['subject']) &
 
 }
 
+
 ?>
 
 
@@ -67,7 +68,7 @@ Contact us</h2>
             <div id="error"></div>
             <?php echo $success_message; ?>
             <?php echo $error_message; ?>
-            <form class="contactForm" name="form"  Onsubmit="return Submit();" method="POST" action= "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?> "  >
+            <form class="contactForm" name="form"  method="POST" onsubmit = "return Submit();" action= "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?> "  >
 
                 <!--Grid row-->
                 <div class="row">
