@@ -35,7 +35,7 @@ As I discovered my calling I have begun to function as a Prophet.
         </p>
 </div>
 <div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 "> 
-<img src="img/about.png" class="img-responsive" width="" />
+<img src="img/about.png" class="img-responsive" width="60%" />
 </div>
 </div>
 

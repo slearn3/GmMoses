@@ -17,7 +17,7 @@
     <!--section_1-->
    <div class="section_1">
   <div class=" position-relative">
-     <img src="img/events.jpg" width="100%"  >
+     <img src="img/events.jpg" width="100%" height="400px;" >
     <!-- <div class="container position-absolute" style="top:100px ">
        <h3 class="display-5 text-center bg-white align-self-center"> So let each one give as he purposes in his heart, not grudgingly or of necessity; for God loves a cheerful giver.
        <p class="text-bold text-center bg-white"> 2 Corinthians 9:7</p>
